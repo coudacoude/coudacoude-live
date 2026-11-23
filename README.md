@@ -19,7 +19,7 @@ There is no AI on Kazar's side.
 **Claude Code**
 
 ```
-/plugin marketplace add <owner>/kazar-live
+/plugin marketplace add fabiensabatie/kazar-live
 /plugin install kazar-live@kazar-live
 ```
 
