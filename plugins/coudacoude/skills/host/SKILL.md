@@ -11,7 +11,7 @@ receive what they write, answer, and hand work out.
 
 Arguments: `$ARGUMENTS` (optionally the person's personal join code, e.g. `482913-k7Qm2xPa`).
 
-1. If no join code was given: tell the person to open https://web-production-5b679b05.up.railway.app, sign in
+1. If no join code was given: tell the person to open https://coudacoude.fr, sign in
    (or create a free account), click "New session", join, then click "Add my AI" and paste you the line it
    shows (it looks like `/coudacoude:join 482913-k7Qm2xPa orchestrate`). Stop there and wait.
 2. With the code: follow the `join` skill with `orchestrate: true` — join, tell the person the link and
