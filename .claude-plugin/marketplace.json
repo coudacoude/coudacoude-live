@@ -1,14 +1,21 @@
 {
-  "name": "kazar-live",
-  "owner": { "name": "Kazar", "url": "https://kazar.ai" },
-  "description": "Kazar Live: bring your own AI assistant into a free Kazar live room, where people and their assistants work together.",
+  "name": "coudacoude",
+  "owner": {
+    "name": "Coudacoude"
+  },
+  "description": "Coudacoude : venez en réunion avec votre propre assistant IA, dans une salle où les personnes et leurs assistants travaillent ensemble.",
   "plugins": [
     {
-      "name": "kazar-live",
-      "source": "./plugins/kazar-live",
-      "description": "Join or host a Kazar live room: your assistant takes tasks from the room, or orchestrates it, and does the work with your own tools.",
+      "name": "coudacoude",
+      "source": "./plugins/coudacoude",
+      "description": "Rejoignez ou animez une session Coudacoude : votre assistant prend les tâches de la salle, ou la pilote, et fait le travail avec vos propres outils.",
       "category": "productivity",
-      "tags": ["kazar", "live", "collaboration", "multi-agent"]
+      "tags": [
+        "coudacoude",
+        "live",
+        "collaboration",
+        "multi-agent"
+      ]
     }
   ]
 }

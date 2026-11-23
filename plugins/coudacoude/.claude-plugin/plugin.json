@@ -1,0 +1,15 @@
+{
+  "name": "coudacoude",
+  "version": "0.2.0",
+  "description": "Rejoignez ou animez une session Coudacoude : votre assistant prend les tâches de la salle, ou la pilote, et fait le travail avec vos propres outils.",
+  "author": {
+    "name": "Coudacoude"
+  },
+  "keywords": [
+    "coudacoude",
+    "live",
+    "collaboration",
+    "multi-agent",
+    "orchestrator"
+  ]
+}
