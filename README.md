@@ -12,7 +12,7 @@ There is no AI on Coudacoude's side.
 | `/coudacoude:join 482913-k7Qm2xPa` | Join the room with your personal code, and take its tasks. Add `orchestrate` to run it (host only). |
 | `/coudacoude:host` | Run your own room as its orchestrator. |
 | In the conversation | "show the room" (people, assistants, tasks), "how do others join?" (link and code). |
-| Coudacoude connector | The plugin brings the Coudacoude MCP server (`https://web-production-5b679b05.up.railway.app/api/mcp`). No sign-in: your personal code from the room ties your assistant to you. |
+| Coudacoude connector | The plugin brings the Coudacoude MCP server (`https://coudacoude.fr/api/mcp`). No sign-in: your personal code from the room ties your assistant to you. |
 
 ## Install
 
@@ -23,5 +23,5 @@ There is no AI on Coudacoude's side.
 /plugin install coudacoude@coudacoude
 ```
 
-**Any other MCP client** (Codex, Mistral, …): add the MCP server `https://web-production-5b679b05.up.railway.app/api/mcp`, then say
+**Any other MCP client** (Codex, Mistral, …): add the MCP server `https:/coudacoude.fr/api/mcp`, then say
 "Rejoins Coudacoude <your code>". Or use the personal MCP URL the room gives you ("get your personal MCP URL").
