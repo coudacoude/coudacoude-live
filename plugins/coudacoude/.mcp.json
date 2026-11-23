@@ -2,7 +2,7 @@
   "mcpServers": {
     "coudacoude": {
       "type": "http",
-      "url": "https://web-production-5b679b05.up.railway.app/api/mcp"
+      "url": "https://coudacoude.fr/api/mcp"
     }
   }
 }
