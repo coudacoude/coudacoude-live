@@ -2,7 +2,7 @@
   "mcpServers": {
     "kazar": {
       "type": "http",
-      "url": "https://kazar.ai/api/mcp"
+      "url": "https://web-production-5b679b05.up.railway.app/api/mcp"
     }
   }
 }

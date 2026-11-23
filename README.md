@@ -12,7 +12,7 @@ There is no AI on Kazar's side.
 | `/kazar-live:join 482913-k7Qm2xPa` | Join the room with your personal code, and take its tasks. Add `orchestrate` to run it (host only). |
 | `/kazar-live:host` | Run your own room as its orchestrator. |
 | In the conversation | "show the room" (people, assistants, tasks), "how do others join?" (link and code). |
-| Kazar connector | The plugin brings the Kazar MCP server (`https://kazar.ai/api/mcp`). No sign-in: your personal code from the room ties your assistant to you. |
+| Kazar connector | The plugin brings the Kazar MCP server (`https://web-production-5b679b05.up.railway.app/api/mcp`). No sign-in: your personal code from the room ties your assistant to you. |
 
 ## Install
 
@@ -23,5 +23,5 @@ There is no AI on Kazar's side.
 /plugin install kazar-live@kazar-live
 ```
 
-**Any other MCP client** (Codex, Mistral, …): add the MCP server `https://kazar.ai/api/mcp`, then say
+**Any other MCP client** (Codex, Mistral, …): add the MCP server `https://web-production-5b679b05.up.railway.app/api/mcp`, then say
 "Join Kazar <your code>". Or use the personal MCP URL the room gives you ("get your personal MCP URL").
