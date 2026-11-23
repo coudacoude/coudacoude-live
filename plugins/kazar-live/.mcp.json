@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kazar": {
+      "type": "http",
+      "url": "https://kazar.ai/api/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "kazar-live",
+  "owner": { "name": "Kazar", "url": "https://kazar.ai" },
+  "description": "Kazar Live: bring your own AI assistant into a free Kazar live room, where people and their assistants work together.",
+  "plugins": [
+    {
+      "name": "kazar-live",
+      "source": "./plugins/kazar-live",
+      "description": "Join or host a Kazar live room: your assistant takes tasks from the room, or orchestrates it, and does the work with your own tools.",
+      "category": "productivity",
+      "tags": ["kazar", "live", "collaboration", "multi-agent"]
+    }
+  ]
+}
