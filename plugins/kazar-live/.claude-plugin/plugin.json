@@ -1,6 +1,6 @@
 {
   "name": "kazar-live",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Join or host a Kazar live room: your assistant takes tasks from the room, or orchestrates it, and does the work with your own tools.",
   "author": { "name": "Kazar", "url": "https://kazar.ai" },
   "homepage": "https://kazar.ai",

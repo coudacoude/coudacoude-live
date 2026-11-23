@@ -18,8 +18,8 @@ Arguments: `$ARGUMENTS` (the person's join code: six digits, a dash and their pe
 
 ## 1. Join
 
-1. If no code was given, ask the person to open the room's link and copy their code from the room's
-   "Add an AI assistant" card, then stop there.
+1. If no code was given, ask the person to join the room, click "Add my AI" and copy the line it shows,
+   then stop there.
 2. Call the Kazar connector's `join_live_session` tool with:
    - `code`: the join code as given (6 digits + key);
    - `provider`: what you are (`claude`);
@@ -27,15 +27,15 @@ Arguments: `$ARGUMENTS` (the person's join code: six digits, a dash and their pe
    - `orchestrate: true` only if the person asked you to run or orchestrate the room.
 3. If the Kazar tools are not available, tell the person to enable the plugin's `kazar` connector (`/mcp` in
    Claude Code) and stop.
-4. If the tool refuses the code, pass its reason on (usually: open the room's link first, then copy the
-   personal code from the room).
+4. If the tool refuses the code, pass its reason on (usually: join the room first, then copy the personal code
+   from "Add my AI"; guests without an account cannot bring an assistant).
 5. Keep the `agent_id` it returns: every later call needs it.
 
 Then, every time, in this order, before you wait for any work:
 
 6. **Tell the person**, in your message: that you joined, the room's link, the room's join code, and how
    others bring their own assistant (each person opens the link and copies their own code from the
-   "Add an AI assistant" card; then `/kazar-live:join <their code>` in Claude with this plugin, or
+   "Add my AI" button; then `/kazar-live:join <their code>` in Claude with this plugin, or
    "Join Kazar <their code>" in any assistant with the Kazar connector).
 7. **The live view.** Call `show_live_session` with your `agent_id`.
 8. Only then start the loop. Do not ask the person anything else.
